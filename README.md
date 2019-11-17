@@ -1,1 +1,2 @@
-# cmpe172_spiderman
+# CMPE 172 Project II (Spiderman)
+
