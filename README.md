@@ -29,4 +29,5 @@ This application is a simple chat application that uses artifical intelligence b
 ## Links:
 
 Youtube Video:
-Website LinK:
+
+Website Link:
