@@ -1,7 +1,7 @@
 # CMPE 172 Project II (Spiderman)
 - San Jose State University:  http://www.sjsu.edu/ 
 - Professor Sanjay Garje:  
-## Group Members & LinkedIns:
+## Group Members & LinkedIns
 - Gabriel Baki:
 - Dat Do:
 - Twisha Patel:
@@ -17,8 +17,16 @@ This application is a simple chat application that uses artifical intelligence b
   - IAM:
   - Lambda:
   - S3:
+  - Route 53:
   - DynamoDB:
   - Cognito:
   - CloudFront:
+  - API Gateway
+  - Lex
 ## Setup Instructions
 
+
+## Links:
+
+Youtube Video:
+Website LinK:
