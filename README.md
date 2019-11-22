@@ -3,7 +3,7 @@
 - Professor Sanjay Garje:  
 ## Group Members & LinkedIns
 - Gabriel Baki:
-- Dat Do:
+- Dat Do: https://www.linkedin.com/in/dohdat/
 - Twisha Patel:
 - Andrew Wilson:
 - Jacob T. David:  https://www.linkedin.com/in/jacob-david-a5b12417a/
@@ -31,3 +31,4 @@ This application is a simple chat application that uses artifical intelligence b
 Youtube Video:
 
 Website Link:
+http://sjsu172homework.com/
