@@ -26,7 +26,8 @@ This application is a simple chat application that uses artifical intelligence b
   - Lex
 ## Setup Instructions
 
-
+- Upload static HTML, CSS, and javascript files to a S3 Bucket
+- Setup Lambda, API Gateway, and DynamoDB tables
 ## Links:
 
 Youtube Video:
