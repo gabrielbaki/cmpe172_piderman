@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <title>Messangers Without Servers!</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+	<div class="row" align = "center">
+		<div class="col-md-12">
+
+			<div class="btn-group btn-group-lg btn-group-horizontal" role="group">
+
+				<button class="btn btn-secondary" type="button">
+					Messangers Without Servers
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div align = "center">
+    <form>
+        <div class="form-group">
+            <label ref="code">Enter verification code:</label>
+            <input id="code" type="text" maxlength="20"/>
+        </div>
+        <button type="button" class="btn btn-secondary" onclick="window.controller.verify()">Verify</button>
+        <button type="button" class="btn btn-secondary" onclick="window.controller.resendCode()">Email Another Code</button>
+    </form>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/amazon-cognito-identity.min.js"></script>
+<script src="js/apiGateway-js-sdk/lib/axios/dist/axios.standalone.js"></script>
+<script src="js/apiGateway-js-sdk/lib/CryptoJS/rollups/hmac-sha256.js"></script>
+<script src="js/apiGateway-js-sdk/lib/CryptoJS/rollups/sha256.js"></script>
+<script src="js/apiGateway-js-sdk/lib/CryptoJS/components/hmac.js"></script>
+<script src="js/apiGateway-js-sdk/lib/CryptoJS/components/enc-base64.js"></script>
+<script src="js/apiGateway-js-sdk/lib/url-template/url-template.js"></script>
+<script src="js/apiGateway-js-sdk/lib/apiGatewayCore/sigV4Client.js"></script>
+<script src="js/apiGateway-js-sdk/lib/apiGatewayCore/apiGatewayClient.js"></script>
+<script src="js/apiGateway-js-sdk/lib/apiGatewayCore/simpleHttpClient.js"></script>
+<script src="js/apiGateway-js-sdk/lib/apiGatewayCore/utils.js"></script>
+<script src="js/apiGateway-js-sdk/apigClient.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
