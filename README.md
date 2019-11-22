@@ -3,7 +3,7 @@
 - Course: http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE172.html
 - Professor Sanjay Garje:  https://www.linkedin.com/in/sanjaygarje/
 ## Group Members & LinkedIns
-- Gabriel Baki:
+- Gabriel Baki: https://www.linkedin.com/in/gabriel-baki-725560102/- 
 - Dat Do: https://www.linkedin.com/in/dohdat/
 - Twisha Patel: https://www.linkedin.com/in/twisha-patel/
 - Andrew Wilson:
