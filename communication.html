@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <title>Messangers Without Servers!</title>
+
+    
+</head>
+<body>
+	<div class="row" align = "center">
+		<div class="col-md-12">
+			<div class="btn-group btn-group-lg btn-group-horizontal" role="group">
+				<button class="btn btn-secondary" type="button" onclick = "window.location.href = '/';">
+					Messangers without Servers
+				</button>
+				<button class="btn btn-secondary" type="button" onclick = "window.location.href = 'history.html';">
+					Communication History
+				</button>
+                <button type = "button"  class="btn btn-secondary" onclick = "window.location.href = 'selectUser.html';">New Discussion</button>
+				<button class="btn btn-secondary" type="button" onclick = "window.controller.signout()">
+					Logout
+				</button>
+			</div>
+		</div>
+	</div>
+
+<div class="container" id="chat">
+    &nbsp;
+</div>
+	<div class="row" align = "center">
+		<div class="col-xs-12">
+			<form role="form">
+				<div class="form-group">
+					<input type="text" class="form-control" id="message" = "Your text goes here!">
+				</div>
+				<button type="button"  class="btn btn-secondary" id="submit">
+					Submit
+				</button>
+			</form>
+		</div>
+	</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/amazon-cognito-identity.min.js"></script>
+<script src="js/apiGateway-js-sdk/lib/axios/dist/axios.standalone.js"></script>
+<script src="js/apiGateway-js-sdk/lib/CryptoJS/rollups/hmac-sha256.js"></script>
+<script src="js/apiGateway-js-sdk/lib/CryptoJS/rollups/sha256.js"></script>
+<script src="js/apiGateway-js-sdk/lib/CryptoJS/components/hmac.js"></script>
+<script src="js/apiGateway-js-sdk/lib/CryptoJS/components/enc-base64.js"></script>
+<script src="js/apiGateway-js-sdk/lib/url-template/url-template.js"></script>
+<script src="js/apiGateway-js-sdk/lib/apiGatewayCore/sigV4Client.js"></script>
+<script src="js/apiGateway-js-sdk/lib/apiGatewayCore/apiGatewayClient.js"></script>
+<script src="js/apiGateway-js-sdk/lib/apiGatewayCore/simpleHttpClient.js"></script>
+<script src="js/apiGateway-js-sdk/lib/apiGatewayCore/utils.js"></script>
+<script src="js/apiGateway-js-sdk/apigClient.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" type="text/javascript"></script>
+<script src="js/site.js"></script>
+<script type="text/javascript">
+    $(function () {
+        window.controller.validate(false, true);
+        $('#message').focus().keypress(function (event) {
+            if (event.keyCode === 13) {
+                window.controller.submit();
+            }
+        });
+        $('#submit').on('click', window.controller.submit);
+        window.controller.getDiscussion();
+        window.setInterval(window.controller.getDiscussion, 5000);
+        window.setInterval(function () {
+            var times = $('.messageTime');
+            for (var i = 0; i < times.length; i++) {
+                var jqTimes = $(times[i]);
+                jqTimes.text(moment(Number(jqTimes.data('time'))).fromNow());
+            }
+        }, 5000);
+    });
+</script>
+</body>
+</html>
