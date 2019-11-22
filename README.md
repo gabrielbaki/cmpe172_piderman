@@ -1,5 +1,5 @@
 # CMPE 172 Project II (Spiderman)
-- San Jose State University:  http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE172.html
+- San Jose State University:  http://www.sjsu.edu/
 - Course: http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE172.html
 - Professor Sanjay Garje:  https://www.linkedin.com/in/sanjaygarje/
 ## Group Members & LinkedIns
