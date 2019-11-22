@@ -12,7 +12,7 @@
 This application is a simple chat application that uses artifical intelligence bots to assist with message construction and message understanding.  The application is built on Javascript, HTML, and CSS while also incorporating resources from Amazon Web Services (AWS).  
 
 ## Screenshots
-https://files.slack.com/files-tmb/TMBFVM05R-FQYC4RDQE-a053af5fb5/msgget_720.png
+[Screenshot](https://files.slack.com/files-tmb/TMBFVM05R-FQYC4RDQE-a053af5fb5/msgget_720.png)
 ## Requirements/Prerequisites to Setup
 - AWS Account
   - IAM:
