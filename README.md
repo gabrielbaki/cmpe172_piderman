@@ -13,6 +13,9 @@ This application is a simple chat application that uses artifical intelligence b
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/30649150/69464227-9ce4fd00-0d32-11ea-87cf-5a8d39314f38.png)
+![image](https://user-images.githubusercontent.com/30649150/69464260-b4bc8100-0d32-11ea-92f0-a0b29afc1184.png)
+![image](https://user-images.githubusercontent.com/30649150/69464296-c867e780-0d32-11ea-89bf-c0067ccd9277.png)
+![image](https://user-images.githubusercontent.com/30649150/69464313-d61d6d00-0d32-11ea-9af7-a5407875e7c0.png)
 ## Requirements/Prerequisites to Setup
 - AWS Account
   - IAM:
